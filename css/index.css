@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR Light', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:where(:hover, :focus) {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: gray;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
+
+.css-white {
+    color: #ffffff;
+}
+
+.js-wait-start {
+    z-index: 100;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #222222;
+}
+
+.css-container .js-chr {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.css-container .js-res-speed {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.css-container .js-show-result {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.js-result {
+    background: #000000;
+}

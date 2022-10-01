@@ -1,0 +1,2 @@
+const capture = html2canvas
+

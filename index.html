@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./favicon/icon.ico" type="image/x-icon">
+	<title>반응속도 테스트</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link href="./css/index.css" rel="stylesheet">
+	<script
+		defer
+		src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+		integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	></script>
+	<script defer src="./js/index.js"></script>
+</head>
+<body>
+	<div class="js-wait-start">
+		<h1 class="css-white js-start-button">아무 곳이나 클릭하여 시작하세요.</h1>
+		&nbsp;&nbsp;
+		<span class="css-white">배경음악 음소거 -></span>
+		&nbsp;
+		<input type="checkbox" class="js-mute-audio">
+	</div>
+
+	<div class="css-container css-white">
+		<h1>아래의 글자를 빠르게 치세요!</h1>
+		<h2 class="js-chr">글자 없음</h2>
+		<h4 class="js-res-speed">반응 속도 : 0ms</h4>
+		<div class="css-result">
+			<h1></h1>
+		</div>
+		<a href="javascript:void(0);" class="js-show-result">결과 보기</a>
+	</div>
+
+	<div class="js-result"></div>
+
+</body>
+</html>
